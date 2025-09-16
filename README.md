@@ -68,9 +68,13 @@ The project uses two tables:
 ---
 
 ## 🚀 How to Run
-1. Run `dataset.sql` to create and populate tables.  
-2. Run queries from `queries.sql` (organized as easy → medium → hard → interview).  
-3. (Optional) Save query outputs in `/results` folder for proof.  
+1. Download the dataset files:  
+   - 📘 `Learners.xlsx`  
+   - 📗 `Courses.xlsx`  
+
+2. Import them into **SQL Server** (use SQL Server Import Wizard or `OPENROWSET`).  
+3. Run queries from `Learner_courses  project.sql`
+4. (Optional) Save query outputs in `/results` folder for proof.  
 
 ---
 
